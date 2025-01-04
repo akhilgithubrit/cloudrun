@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    const name = process.env.NAME || 'HELLO-WORLD'; // 'process' is lowercase
+    const name = process.env.NAME || 'HELLO-Brio'; // 'process' is lowercase
     res.send(`Hello ${name}`); // Use backticks for string interpolation
 });
 
